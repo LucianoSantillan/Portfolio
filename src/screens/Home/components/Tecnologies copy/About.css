@@ -1,0 +1,164 @@
+.circular-progress {
+    margin: auto;
+    position: relative;
+}
+
+.circular-progress, .circular-progress:before, .circular-progress:after {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.circular-progress:before, .circular-progress:after {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.circular-progress:before {
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    line-height: 7rem;
+}
+
+.circular-progress:after {
+    line-height: 13rem;
+}
+
+
+
+
+
+.html {
+    transform: rotate(162deg);
+    background: linear-gradient(0deg, #e44d26 50%, rgba(228, 77, 38, 0.2) 50%);
+}
+
+.html:before, .html:after {
+    color:#e44d26;
+}
+
+.html:before {
+    content: "html5";
+    background: #f5f5f5 content-box;
+    transform: rotate(-162deg);
+    text-transform: uppercase;
+}
+
+.html:after {
+    content: "90%";
+    background: linear-gradient(transparent 50%, #f5f5f5 50%);
+    transform: scale(1.1) rotate(-162deg);
+}
+
+
+
+
+
+
+
+.python {
+    transform: rotate(126deg);
+    background: linear-gradient(0deg, #67217a 50%, rgba(103, 33, 122, 0.2) 50%);
+}
+
+.python:before, .python:after {
+    color: #67217a;
+}
+
+.python:before {
+    content: "C#";
+    background: #f5f5f5 content-box;
+    transform: rotate(-126deg);
+    text-transform: uppercase;
+}
+
+.python:after {
+    content: "70%";
+    background: linear-gradient(transparent 50%, #f5f5f5 50%);
+    transform: scale(1.1) rotate(-126deg);
+}
+
+
+
+
+
+
+
+.css {
+    transform: rotate(36deg);
+    background: linear-gradient(0deg, #006bc0 50%, rgba(0, 107, 192, 0.2) 50%);
+}
+
+.css:before, .css:after {
+    color: #006bc0;
+}
+
+.css:before {
+    content: "css";
+    background: #f5f5f5 content-box;
+    transform: rotate(-36deg);
+    text-transform: uppercase;
+}
+
+.css:after {
+    content: "20%";
+    background: linear-gradient(transparent 50%, #f5f5f5 50%);
+    transform: scale(1.1) rotate(-36deg);
+}
+
+
+
+
+
+
+.js {
+    transform: rotate(108deg);
+    background: linear-gradient(0deg,#f7df1e 50%, rgba(247, 223, 30, 0.2) 50%);
+}
+
+.js:before, .js:after {
+    color:#f7df1e;
+}
+
+.js:before {
+    content: "js";
+    background: #f5f5f5 content-box;
+    transform: rotate(-108deg);
+    text-transform: uppercase;
+}
+
+.js:after {
+    content: "60%";
+    background: linear-gradient(transparent 50%, #f5f5f5 50%);
+    transform: scale(1.1) rotate(-108deg);
+}
+
+
+
+
+
+
+.react {
+    transform: rotate(36deg);
+    background: linear-gradient(0deg, #61dbfb 50%, rgba(93, 188, 210, 0.2) 50%);
+}
+
+.react:before, .react:after {
+    color: #61dbfb;
+}
+
+.react:before {
+    content: "react";
+    background: #f5f5f5 content-box;
+    transform: rotate(-36deg);
+    text-transform: uppercase;
+}
+
+.react:after {
+    content: "20%";
+    background: linear-gradient(transparent 50%, #f5f5f5 50%);
+    transform: scale(1.1) rotate(-36deg);
+}
